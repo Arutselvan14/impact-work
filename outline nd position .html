@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+       .static{
+        border: 2px solid burlywood;
+       }
+       .sticky{
+        position: sticky;
+        top: 30px;
+        padding: 5px 2px;
+        background-color: aqua;
+        border: 3px solid yellow;
+       }
+       .fixed{
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            width: 100px;
+            border: 2px solid lightblue;
+       }
+
+       div.relative{
+              position: relative;
+              left: 300px;
+              width: 400px;
+              height: 200px;
+              border: 2px solid rgb(7, 218, 255);
+
+
+       }
+
+       div.absolute{
+              position:absolute;
+              left: 100px;
+              width: 200px;
+              height: 100px;
+              border: 2px solid rgb(37, 240, 18);
+              background-color: aquamarine; } 
+
+       div.outline{
+             outline: 4px solid black;
+             outline-offset: 3px;
+             border: 5px solid red;
+       }      
+       span{
+            outline: 2px solid black;
+             outline-offset: 5px 10px;
+             border: 5px solid red;
+       } 
+      
+       .mydiv {
+             width: 100px;
+             position: absolute;
+             height: 100px;
+             background-color: rgb(233, 14, 14);
+       }
+
+       .mydiv div {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            background-color: yellow;
+            border: 1px solid rgb(86, 224, 7);
+            opacity: 1;
+       }
+
+       .mybox{
+            position: absolute;
+            background-color: red !important;
+            opacity: 1 !important;
+            z-index: 5; 
+       }
+
+    </style>
+</head>
+<body>
+
+  <h1>the z-index property</h1>
+      <div class="mydiv">
+           <div class="mybox">mybox</div>
+           <div style="top:20px;left:20px;z-index:0;">z-index 0</div>
+           <div style="top:40px;left:40px;z-index:1;">z-index 1</div>
+           <div style="top:60px;left:60px;z-index:2;">z-index 2</div>
+           <div style="top:80px;left:80px;z-index:3;">z-index 3</div>
+
+      </div>
+
+     <h1>CSS position property</h1>
+      
+     <h3>properties</h3>
+
+     <ul>
+       <li>static</li>
+       <li>sticky</li>
+       <li>relative</li>
+       <li>fixed</li>
+       <li>absolute</li>
+
+     </ul>
+
+     <div class="fixed" style="color: rgb(233, 97, 6);">
+        this is fixed </div>
+
+     <div class="static">
+        this is static 
+
+     </div>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore recusandae nulla minima modi, repudiandae repellat tempora quos aliquam, deserunt officiis architecto, ipsa ut temporibus? Asperiores aut ipsam qui autem rerum. Tempore sint quisquam corporis voluptatibus facere ipsum, impedit eos mollitia ipsa aliquid sed laborum repellat adipisci aliquam, aspernatur quaerat harum!</p>
+
+     <div class="sticky">
+        this is sticky
+
+     </div>
+
+     <h1>CSS position property</h1>
+      
+     <h3>properties</h3>
+
+     <ul>
+       <li>static</li>
+       <li>sticky</li>
+       <li>relative</li>
+       <li>fixed</li>
+       <li>absolute</li>
+
+     </ul>
+
+     <h1>CSS position property</h1>
+      
+     <h3>properties</h3>
+
+     <ul>
+       <li>static</li>
+       <li>sticky</li>
+       <li>relative</li>
+       <li>fixed</li>
+       <li>absolute</li>
+
+     </ul>
+
+     <h1>CSS position property</h1>
+      <div class="outline">
+     <h3>outline properties </h3>
+     </div> <br>
+     <h1>CSS position property</h1>
+
+     <span>outline properties </span>
+
+     <ul>
+       <li>static</li>
+       <li>sticky</li>
+       <li>relative</li>
+       <li>fixed</li>
+       <li>absolute</li>
+
+     </ul>
+    
+    <ul>
+        <li>static</li>
+        <li>sticky</li>
+        <li>relative</li>
+        <li>fixed</li>
+        <li>absolute</li>
+ 
+      </ul>
+
+      <div class="relative">
+                <!-- position relative is moving but it cannot occupay its original position  -->
+                 this div element has position:relative;
+                 <div class="absolute"> 
+                    <!-- position absolute is also moving but other elements can occupay its original position  -->
+                     this div element has position:absolute;
+
+                 </div>
+                 <div>HTML</div>
+        
+      </div>
+
+      <ul>
+        <li>static</li>
+        <li>sticky</li>
+        <li>relative</li>
+        <li>fixed</li>
+        <li>absolute</li>
+ 
+      </ul>
+
+      
+
+
+</body>
+</html>

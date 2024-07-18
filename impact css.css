@@ -1,0 +1,314 @@
+.line::after{
+    content: '';
+    display: block;
+    bottom: -10px;
+    width: 65px;
+    height: 4px;
+    background-color: #008374;
+    /* padding: 10px; */
+    position: relative;
+    margin: 15px auto;
+    
+}
+
+/* #line::after{
+    content: '';
+    display: block;
+    bottom: -10px;
+    
+    width: 100px;
+    height: 4px;
+    background-color: #008374;
+    padding: 10px;
+    position: relative;
+    margin: 15px auto;
+    
+} */
+
+
+
+.card-link{
+       
+    text-decoration: none;
+   }
+
+.link{
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-size: 13px;
+   }
+
+
+#link{
+    color: #008374;
+    position: absolute;
+    margin:179px 243px;
+    
+}   
+
+#shadowcard{
+    box-shadow: 10px 10px 30px 0px  gainsboro;
+}
+
+#shadowc{
+    box-shadow: 10px 10px 30px 0px  gainsboro;
+}
+
+.box{
+    border-radius: 5px;
+    background-color: #008374;
+    height: 210px;
+    width: 270px;
+    margin-top:-105px;
+    /* color: rgb(255, 255, 255); */
+    margin-bottom: 100px;
+    
+    
+}
+
+.box:hover{
+   
+   background-color:#079181;
+    
+   
+   
+}
+
+#abi{
+    display: flex;
+    
+}
+
+#contact{
+    background-color: #008374;
+    margin-top: ;
+}
+
+.address{
+    margin-top:-40px ;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+.addres{
+    margin-top:-20px ;
+    padding-left: 40px;
+    font-size: 13px;
+}
+
+
+
+/* #icons{
+    margin-top: 50px;
+} */
+
+.addre{
+    border: 1px solid rgb(26,144,130);
+    padding: 20px 10px 10px ;
+    margin: 20px 10px  ;
+    background-color: rgb(26,144,130);
+}
+
+
+
+.form{
+    /* padding: 20px; */
+}
+
+.form{
+    /* padding: 20px; */
+}
+
+#ga{
+   opacity: 0.4; 
+}
+
+#gap{
+    color:  #008374;
+}
+#gaps{
+    color:  #0c0c0c;
+    opacity: 0.4; 
+}
+
+#pwd{
+    color: aliceblue;
+     background-color: #008374;
+     border: 0px solid #008374;
+     border-radius: 45px;
+     padding: 15px 20px;
+     
+}
+
+#wsb{
+    color: aliceblue;
+     background-color: #008374;
+     border: 1px solid #f3ecec;
+     border-radius: 30px;
+     padding: 8px 10px;
+     
+}
+
+#nolink{
+    text-decoration: none;
+    color: #383737;
+    
+}
+
+.ahref{
+    text-decoration: none;
+    color: rgb(59, 56, 56);
+}
+
+#thalavali{
+    border-radius: 20px;
+    border: 2px solid white;
+    
+    
+
+}
+#thalavali{
+    filter: blur(1px);
+    filter:opacity(0.9) ;
+}
+
+ #imgad{
+
+
+    background: url(https://bootstrapmade.com/demo/templates/Impact/assets/img/cta-bg.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width:  ;
+    border-radius: 20px;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color: linen;
+    filter: brightness(0.9);
+    top: 0;
+    left: 0;
+    border-color: rgba(0,0,0,0,1);
+    
+}      
+
+.bi-play-circle{
+    color: #0c0c0c;
+}
+
+.bi-play-circle:hover{
+
+
+}
+
+#btna{
+    text-decoration: none;
+}
+
+#btna:hover{
+     color: #f3ecec;
+}
+
+#btnn:hover{
+    background-color: #008374;
+    border: #008374;
+
+}
+
+#btnn{
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    padding: 5px 10px;
+    
+}
+
+.pics{
+    position: relative;
+    margin-top: -200px ;
+    /* filter: brightness(90%);  */
+
+    width: 1000px;
+    height: 500px;
+    
+
+
+}
+
+/* #img{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.background{
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(image8888.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:  -1; 
+}
+
+.content{
+    position: relative;
+    color: #fff;
+    margin-top: 200px;
+    text-align: center;
+} */
+#ab{
+    margin: 5px 0px;
+    padding: 5px 10px;
+    border: 2px solid #f3ecec;
+}
+
+#ab:hover{
+   background-color: rgb(0,118,104);
+   }; 
+
+.btn:hover{
+    color:;
+    background-color: white;
+}
+
+#id:hover{
+    color: #ffffff;
+}
+
+.bi-envelope:hover{
+         text-decoration: underline;
+}
+
+
+
+#link:hover{
+    border-radius: 100px ;
+}
+
+#sbs:hover{
+    color: rgb(0,118,104);
+}
+
+#rep:hover{
+    color: rgb(0,118,104);
+}
+
+#rep{
+    text-decoration: none;
+    color: #0c0c0c;
+    padding: 20px 0px;
+}
+
+#colorb:hover{
+    background-color: rgb(0,118,104);
+}
+
+#colorbc:hover{
+    background-color: rgb(0,118,104);
+    border: #008374;
+}

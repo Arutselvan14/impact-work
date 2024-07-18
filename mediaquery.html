@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+
+  <style>
+    .grid-container {
+      grid-template-columns: repeat(2,100px);
+        display: grid;
+        background-color: rgb(10, 245, 30);
+        /* height: 700px; */
+        margin: 10px;
+        justify-content: center;
+
+     }
+     .items{
+          border: 10px solid yellow;
+          margin: 20px;
+          background-color:aqua;
+          color: yellow;
+          /* height: 100px;
+          width: 100px; */
+
+          
+
+     }
+  
+     @media screen and (min-width:768px) 
+     /* min-width 768 below..the below style works */
+      {
+        .para{
+            display: flex
+        }
+     } 
+
+     /* @media screen and (max-width:1024px)
+     /* max-width 768 above..the below style works 
+     {
+        .para{
+            display: none;
+        }
+     } */
+     <script language="javascript">
+
+var n1,n2,add,sub;
+n1=10;
+n2=20;
+add=n1+n2;
+sub=n1-n2;
+document.add("addition is")
+
+</script> 
+
+
+  </style>  
+</head>
+<body>
+    
+</body>
+<div class="grid-container">
+
+   <div class="items">1</div>
+   <div class="items">2</div>
+   <div class="items">3</div>
+   <div class="items">4</div>
+   <div class="items">5</div>
+   
+
+</div>
+</html>

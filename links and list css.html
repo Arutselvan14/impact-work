@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINKS AND LISTS IN CSS</title>
+    <link rel="icon" href="html.jpg">
+
+    <style>
+       .aa{
+              list-style-type:disc;
+       }
+
+       .ab{
+               list-style-type: georgian; 
+            
+              
+       }
+
+       /* .ab{        
+     list-style-image: url(html.jpg);
+       } */
+
+     
+       .ac{
+               list-style-type: lower-greek;
+       }
+
+       .ad{
+
+             list-style-type: lower-alpha;
+       }
+
+       a:link{
+            color: yellow;
+       }
+
+       a:visited{
+            color: green;
+       }
+
+       a:hover{
+            color: pink;
+            text-decoration: none;
+            background-color: brown;
+        }
+
+       a:active{
+            color:gray;
+            background-color:black;
+       }
+       .para1::first-letter{
+             color:orangered ;
+             background-color: rgb(9, 255, 0);
+       }
+
+       .para1::first-line{
+         color: rosybrown;
+         background-color: rgb(28, 230, 230);
+       }
+
+
+
+
+    </style>
+</head>
+<body>
+
+
+
+    <h1> Links and List</h1>
+
+    <a href="https://www.youtube.com/?gl=IN" target="_blank">youtube</a>
+
+
+
+
+    <h2> unordered list</h2>
+    <ul class="aa">
+       <li>virat</li>
+       <li>Dhoni</li>
+       <li>rohit</li>
+    </ul>
+
+    <ul class="ab">
+        <li>virat</li>
+        <li>Dhoni</li>
+        <li>rohit</li>
+     </ul>
+     <h2>ordered list</h2>
+
+     <ol class="ac">
+        <li>virat</li>
+        <li>Dhoni</li>
+        <li>rohit</li>
+     </ol>
+
+     <ol class="ad">
+        <li>virat</li>
+        <li>Dhoni</li>
+        <li>rohit</li>
+     </ol>
+
+     <p class="para1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt expedita officia inventore, corrupti omnis itaque eveniet a deserunt vitae non neque aliquid sequi fuga nesciunt exercitationem delectus harum, illum beatae!
+     </p>
+</body>
+</html>

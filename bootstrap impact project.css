@@ -1,0 +1,295 @@
+#s1hh:hover{
+    color: #ffffff;
+}
+
+#shf{
+    font-weight: 500;
+}
+
+.btn1{
+    height: 55px;
+    width: 165px;
+    border: 1px solid rgb(49,155,143);
+    border-radius: 30px;
+    background-color: rgb(26,144,130);
+}
+
+#iconv1{
+
+    /* font-size: 30px;
+    font-style: normal;
+    font-weight: 500px;
+    padding-left: 10px;
+    color: rgb(128,193,186); */
+    
+}
+
+
+#iconv1{
+    text-decoration: none;
+}
+.box{
+    border-radius: 5px;
+    background-color: #008374;
+    height: 210px;
+    width: 270px;
+    margin-top:-105px;
+    /* color: rgb(255, 255, 255); */
+    margin-bottom: 100px;
+    
+}
+
+.box:hover{
+   
+    background-color:#079181;
+ }
+
+ .line::after{
+    content: '';
+    display: block;
+    bottom: -5px;
+    width: 55px;
+    height: 3px;
+    background-color: #008374;
+    padding: 1px;
+    position: relative;
+    margin: 15px auto;
+    
+}
+
+#viconlink1{
+    
+        color: #008374;
+        position: absolute;
+        margin:170px 235px;
+  
+}
+
+#bcal{
+        height: 50px;
+        width: 180px;
+        font-size: 20px;
+        padding: 5px 10px;
+    
+}
+
+#bcal:hover{
+    background-color: #008374;
+    border: #008374;
+}
+
+#backimg{
+    background: url(https://bootstrapmade.com/demo/templates/Impact/assets/img/cta-bg.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 20px;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color: linen;
+    filter: brightness(0.9);
+    top: 0;
+    left: 0;
+    border-color: rgba(0,0,0,0,1);
+    
+}    
+
+#line::after{
+    
+    content: '';
+    display: block;
+    bottom: -5px;
+    width: 158px;
+    height: 3px;
+    background-color:rgb(243,244,244);
+    padding: 1px;
+    position: relative;
+    opacity: 0.6;
+    margin: 5px 0px 20px 0px;
+    
+}
+
+#line:hover{
+    content: '';
+    display: block;
+    bottom: -5px;
+    width: 158px;
+    height: 3px;
+    background-color:#079181;
+    padding: 1px;
+    position: relative;
+    opacity: 0.6;
+    margin: 5px 0px 20px 0px;
+    
+}
+
+
+#circle1::after{
+    
+    content: '';
+    display: block;
+    bottom: -5px; 
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    /* background-color:rgb(243,244,244); */
+    padding: 1px;
+    position: relative;
+    margin: 0px 0px -60px 20px ;
+    
+}
+
+/* #circle1::after{
+    background-color:rgb(243,244,244);
+    opacity: 0.9;
+} */
+
+
+#circle1:hover{
+    content: '';
+    display: block;
+    bottom: -5px; 
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-color:#008374;
+    opacity: 0.7;
+    padding: 1px;
+    position: relative;
+    margin: 0px 0px -60px 20px ;
+
+    
+}
+            
+.card-link{
+    text-decoration: none;
+    color: black;
+}
+
+.card-link:hover{
+    color: #008374;
+}
+
+#quote1{
+    font-size: 25px;
+    color: rgb(127,193,185);
+}
+
+#quote2{
+    font-size: 15px;
+    color: rgb(127,193,185);
+    transform: rotate(80deg);
+}
+
+.bi-star-fill{
+    color:  rgb(255,193,7);
+    
+}
+
+#hnc:hover{
+    color: #008374;
+    
+}
+
+#tsb{
+    color: rgb(198,198,198);
+    border: 1px solid rgb(192, 192, 192);
+    padding: 5px 10px 9px 10px  ;
+    border-radius: 20px;
+}
+
+#tsb:hover{
+   color: #008374;
+   border: 1px solid #008374;
+
+}
+
+#pbc{
+    color: aliceblue;
+    background-color: #008374;
+    border: 0px solid #008374;
+    border-radius: 45px;
+    padding: 15px 20px;
+}
+
+#pbb{
+    color: aliceblue;
+    background-color: #008374;
+    border: 0px solid #008374;
+    border-radius: 45px;
+    padding: 25px 30px;
+}
+
+
+#bcol2:hover{
+    background-color: rgb(0,118,104);
+
+}
+
+#op{
+    opacity: 0.4; 
+ }
+
+ #pric{
+    color: #008374;
+ }
+
+ #bloghov{
+    text-decoration: none;
+    color: #0c0c0c;
+    padding: 20px 0px;
+
+ }
+
+ #bloghov:hover{
+    color:#079181
+ }
+
+ #icog{
+    margin-top: 50px;
+ }
+
+#shad{
+    box-shadow: 10px 10px  30px 0px  gainsboro;
+}
+
+
+
+
+
+
+
+ .address{
+    margin-top:-40px ;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+.addres{
+    margin-top:-20px ;
+    padding-left: 40px;
+    font-size: 13px;
+}
+
+.addre{
+    border: 1px solid rgb(26,144,130);
+    padding: 20px 10px 10px ;
+    margin: 20px 10px  ;
+    background-color: rgb(26,144,130);
+}
+
+.ink{
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-size: 13px;
+   }
+
+#wsb{
+    color: aliceblue;
+     background-color: #008374;
+     border: 1px solid #f3ecec;
+     border-radius: 30px;
+     padding: 8px 10px;
+     
+}

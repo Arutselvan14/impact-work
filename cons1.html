@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Employee(name,dept, age, experience){
+            this.name = name
+            this.dept =dept
+            this.age = age
+            this.experience =experience
+        }
+        Employee.prototype.section = "11"
+          
+        const e1 = new Employee("mukilan", "electronics",35,10)
+        console.log(e1);
+        console.log(e1.section);
+    </script>
+    
+</body>
+</html>
