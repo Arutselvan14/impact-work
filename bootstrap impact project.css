@@ -14,6 +14,10 @@
     background-color: rgb(26,144,130);
 }
 
+.bi-envelope:hover{
+    text-decoration: underline;
+}
+
 #iconv1{
 
     /* font-size: 30px;
@@ -253,20 +257,16 @@
 }
 
 
-
-
-
-
-
  .address{
     margin-top:-40px ;
     padding-bottom: 10px;
-    padding-left: 40px;
+    padding-left: 55px;
 }
 
 .addres{
     margin-top:-20px ;
-    padding-left: 40px;
+    padding-left: 55px;
+    padding-top: 5px;
     font-size: 13px;
 }
 
@@ -286,10 +286,31 @@
    }
 
 #wsb{
-    color: aliceblue;
-     background-color: #008374;
-     border: 1px solid #f3ecec;
+    color: rgb(121,190,182);
+     /* background-color: #008374; */
+     border: 1px solid rgb(121,190,182);
      border-radius: 30px;
      padding: 8px 10px;
      
+}
+
+#wsb:hover{
+    border: 1px solid white;
+    color: #ffffff;
+}
+
+#wsa{
+    border: 1px solid rgb(72,166,155) ;
+    padding: 8px 11px;
+    border-radius: 30px;
+    background-color: rgb(72,166,155);
+}
+
+#wsa:hover{
+    background-color: #ffffff;
+    color: #008374;
+}
+
+#zom:hover{
+    transform: scale(1.01);
 }
