@@ -83,7 +83,7 @@
 
 #contact{
     background-color: #008374;
-    margin-top: ;
+    
 }
 
 .address{
@@ -113,13 +113,13 @@
 
 
 
-.form{
-    /* padding: 20px; */
+/* .form{
+    padding: 20px; 
 }
 
 .form{
-    /* padding: 20px; */
-}
+     padding: 20px; 
+} */
 
 #ga{
    opacity: 0.4; 
@@ -180,7 +180,6 @@
     background: url(https://bootstrapmade.com/demo/templates/Impact/assets/img/cta-bg.jpg);
     background-repeat: no-repeat;
     height: 500px;
-    width:  ;
     border-radius: 20px;
     background-attachment: fixed;
     background-blend-mode: darken;
@@ -196,10 +195,7 @@
     color: #0c0c0c;
 }
 
-.bi-play-circle:hover{
 
-
-}
 
 #btna{
     text-decoration: none;
@@ -272,7 +268,7 @@
    }; 
 
 .btn:hover{
-    color:;
+    
     background-color: white;
 }
 

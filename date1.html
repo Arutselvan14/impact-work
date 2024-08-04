@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="dateTxt" type="text" placeholder="enter Date">
+    <input type="button" value="ok" onclick="getDay()">
+</body>
+<script>
+    function getDay(){
+        let d1 = new Date(Date.now())
+        let d2 = new Date(document.getElementById("dateTxt").value)
+        console.log(d1)
+        console.log(d2)
+        // console.log(d1.getFullYear() - d2.getFullYear());
+        // console.log(d1.getMonth() - d2.getMonth());
+        // console.log(d1.getDay() - d2.getDay());
+        console.log(d1 - d2);
+
+    }
+    
+
+
+
+
+
+    // epoch = 1 jan 1900
+    // const d = new Date()
+    // const d = new Date(2020, 5, 10)  // 0-11
+    // const d = new Date("wed Jun 10 2020 12:35:00")  // hh:mm:ss
+    // const d = new Date(2020,5,10,10,35,12) // yyyy,mm,dd,hh,mm,ss
+    // const d = new Date(1000000)  //milliseconds
+    // const d = new Date(24 * 60 * 60 * 1000 * 4) //h*m*s*ms*days
+    // console.log(d)
+    // console.log(Date.now())
+    // let t = new Date(Date.now())
+    // console.log(t.getYear())
+    // console.log(1900 + t.getYear()) //deprecated
+    // console.log(t.getFullYear())
+    // console.log(t.getMonth())
+    // console.log(t.getDate())
+    // console.log(t.getDay())
+    // console.log(t.getHours())
+
+    let d = new Date(Date.now())
+    console.log(d)
+    console.log("locale", d.toLocaleTimeString())
+    console.log("UTC" , d.toUTCString())
+    console.log("ISO", d.toISOString());
+</script>
+</html>

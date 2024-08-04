@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="itemTxt" type="text" placeholder="type here">
+    <input type="button" value="Add"
+    onclick="addItem()">
+    <input id="itemValue" type="number" size="2">
+    <input type="button" value="remove"
+    onclick="removeItem()">
+    
+</body>
+
+<script>
+    // let list = []
+    // function addItem(){
+    //     let value = document.getElementById("itemTxt").value
+    //     // let arr = [value]
+    //     // list = arr.concat(list)
+    //     list = [...list, value]
+    //     console.log(list)
+    // }
+
+    function removeItem(){
+        let value = document.getElementById("itemValue").value
+        // let arr = [value]
+        // list = arr.concat(list)
+        list.splice(value, 1)
+        console.log(list)
+    }
+
+    function insertItem() {
+        let text = document.getElementById("itemTxt").value
+        let pos = document.getElementById("itemValue").value
+        list.splice(pos, 0, text)
+        console.log(list);
+
+    }
+</script>
+</html>

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         /* div{
+            background-color: aqua;
+            width: 100px;
+            height: 100px;
+            transition: 2s;
+        } 
+        .widthmax{
+            width: 900px;
+        } */
+    </style>
+</head>
+<body>
+
+    <!-- <h1 id="hel">hello world</h1>
+    <button onclick="change()">change</button> -->
+    <!-- <input id="traffic" type="text">
+    <input type="button" onclick="checkTraffic()" value="check"> -->
+
+    <!-- <input id="score" type="text" placeholder="enter score">
+    <input type="button" onclick="gameScore()" value="check"> -->
+
+    <!-- <input id="find" type="number" placeholder="enter num">
+    <input type="button" onclick="oddeven()" value="check"> -->
+
+    <!-- <input id="dext"  type="text" placeholder="text here">
+    <input type="button" value="ok" onclick="action()"> -->
+
+    <!-- <input id="TAble"  type="number" placeholder=" enter table">
+    <input type="button" value="ok" onclick="T_able()">
+
+    <div id="input"></div> -->
+
+    <!-- <input id="num1" type="number" placeholder="num1">
+    <input id="num2" type="number" placeholder="num2">
+    <button onclick="sum()">sum</button> 
+    <p id="result">result:</p> -->
+
+    <!-- <h1>guess the number</h1>
+    <input id="guesnum" type="number">
+    <button onclick="guess()">check</button>
+    <p id="result">right or wrong</p> -->
+    
+ <!-- <div id="box"></div>
+ <button onclick="changeclr()"> change color</button> -->
+
+ <input id="inputite" type="text" onkeyup="update()">
+ <h1 id="result">s</h1>
+
+    
+
+
+</body>
+
+ <script> 
+
+ var inputbox =document.getElementById("inputite").value
+ var replce = document.getElementById("result").innerHTML
+
+function update() {
+   
+    console.log(inputbox);
+    
+   
+}
+
+
+
+
+
+
+    // <!-var box=document.getElementById("box") -->
+
+    // function changeclr() {
+    //     // box.style.backgroundColor="orange"
+    //     box.setAttribute("class","widthmax")
+    // } 
+
+
+
+
+//  function guess() {
+
+//     var guessnum = document.getElementById("guesnum").value
+//     var result = "right"
+//     var randomnum = Math.floor(Math.random()*10+1)
+//      var result2 = "wrong"
+    
+     
+//     if(randomnum==guessnum){
+//         document.getElementById("result").innerHTML= result
+  
+        
+        
+//     }else{
+//         document.getElementById("result").innerHTML= result2
+        
+//     }
+    
+// } 
+
+
+
+// var price = 100
+// var product= "phone"
+// var tax = 10
+// console.log(product);
+// var total= price+tax
+// console.log(total);
+    
+// var fruitName = "apple"
+// var count = 10
+// var price = 100
+// var total = count*price
+// console.log(total);
+
+
+// var a=10
+// var b=20
+// let c=a+b
+// console.log(c);
+
+// var a =10
+// a++
+// console.log(a);
+
+// var a=10
+// var b=a++
+// console.log(b);
+
+// var a =10
+// var b=++a
+// console.log(b);
+
+// var a="abi"
+// var b=2
+// var c=0.2
+// var d=0.222222222222222
+
+// console.log(typeof(d));
+
+// primitive data type
+
+// 1.number
+// 2.string
+// 3.boolean
+// 4.null
+// 5.undefined
+
+// 4) var a =null
+// console.log(a);
+
+// 5) var a
+// console.log(a);
+
+// 3) var a= true 
+// console.log(typeof(a));
+
+// function syntax
+
+// function hello() {
+    
+// }
+// hello()
+
+// function abi()
+// {
+//     console.log("hellooooooooooooooooooooooooo");
+// }
+// abi()
+
+// function myName() {
+//     console.log('abi');
+// }
+// myName()
+
+// var a =10
+// var b =20
+ 
+// function add() {
+//     console.log(a+b);
+    
+// }
+// add()
+
+// var factor = "vijay"
+// var fsinger="aniruth"
+// var fmovies="ghilli"
+
+// function favourite() {
+    
+// console.log("favourite actor:"+factor);
+// console.log("favourite singer:"+fsinger);
+// console.log("favourite movie:"+fmovies);
+
+// }
+// favourite()
+
+// parameter
+
+// function add(a,b) {
+//     console.log(a+b);
+// }
+// add(10,20)
+
+// function area(l,b) {
+//     console.log("area is:"+l*b);
+// }
+// area(100,70)
+
+// return
+
+// function myName() {
+//      return 'abi'
+// }
+
+// var a=myName()
+// console.log(a);
+
+// function add(a,b) {
+//     return a+b
+// }
+// var total= add(10,20)
+// console.log(total);
+
+
+// condition statement
+
+// if(false){
+
+//     console.log("tru");
+// }else{
+
+//     console.log("true");
+// }
+
+// var rain = false
+
+
+// if(rain){
+//     console.log('take on');
+// }else{
+//     console.log("take off");
+// }
+
+
+// and or not statement
+
+// console.log(false && false);
+// console.log(true|| false);
+// console.log(!false);
+
+
+
+// function checkTraffic() {
+    
+//     var color = document.getElementById("traffic").value
+//     // console.log(color);
+//     if(color=="red"){
+//     console.log("stop");
+// }
+// if (color=="yellow") {
+//     console.log("get ready");
+    
+
+// }
+// if (color=="green") {
+//     console.log("go");
+// }
+// }
+
+// checkTraffic()
+
+// function gameScore() {
+//     var score = document.getElementById("score").value
+    
+//     if (score<=50) {
+//        console.log("you need improve");   
+//     }
+
+//     else if (score>50 && score<=70) {
+//         console.log("good job");
+//     }
+
+//     else if (score>70) {
+//         console.log("excellent performance");
+//     }
+// }
+// gameScore()
+
+
+// function oddeven() {
+    
+//  var num = document.getElementById("find").value   
+
+//  if (num %2==0) {
+//     console.log("even");
+//  }
+//     else{
+//         console.log("odd");
+//     }
+// }
+
+// oddeven()
+
+
+// function action() {
+//     var dext = document.getElementById('dext').value;
+
+   
+//     if (dext=="e" || dext == "a" || dext == "i" || dext=="u" || dext=="o"
+//     ){
+//       console.log("vowel");
+//     }
+//     else{
+//       console.log('it is a consonant');
+//     }
+
+// }
+
+
+// loop
+
+// for(b=1;b<=10; b=b+2){
+//  for(a=1; a<=10; a=a+2 ){
+//     console.log(a);
+//  }
+//     console.log(b);
+    
+// }
+// for(a=10;a>=1; a=a-1){
+
+// console.log(a);
+
+// }
+
+// table 
+
+// let Txt =''
+// function T_able() {
+//     var num = document.getElementById("TAble").value
+
+//     for(a=1;  a<=10; a=a+1){
+
+//         console.log(a+"x"+num +"=" +a*num);
+
+// }
+
+// }
+// document.getElementById("input").innerHTML=Txt
+// T_able()
+
+
+
+
+// var para = document.getElementById("hel")
+// // console.log(para.textContent);
+// para.textContent="durga"
+// console.log();
+
+
+// console.log(para+"abi");
+
+// var cne = document.getElementById("hel")
+// console.log(cne.textContent);
+
+// function change() {
+//     cne.textContent="End world"
+// }
+
+
+
+
+// function sum() {
+
+//     var a = parseInt(document.getElementById("num1").value)
+//     var b = parseInt(document.getElementById("num2").value)
+
+//     total=(a / b)
+//     document.getElementById("result").innerHTML = total
+    
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>
